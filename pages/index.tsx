@@ -52,7 +52,7 @@ const Home = () => {
               Back-end Developer
             </h3>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-5 md:h-40 md:w-40">
-              <Image src={ezhasyafaat} layout="fill" objectFit="cover" />
+              <Image src={ezhasyafaat} layout="fill" objectFit="cover" alt='profile-picture'/>
             </div>
             <p className="text-md py-5 leading-8 text-gray-900 dark:text-gray-200 max-w-2xl mx-auto md:text-xl text-left">
             My name is Muh Ezha Syafaat, I am {age} years old. Experience in Website Development 
@@ -84,6 +84,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={purwantara}
+                alt='purwantara'
               />
             </div>
             <div className="basis-1/8 flex-1 ">
@@ -93,6 +94,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={beemall}
+                alt='beemall'
               />
             </div>
             <div className="basis-1/8 flex-1 ">
@@ -102,6 +104,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={duaempat}
+                alt='duaempat'
               />
             </div>
             <div className="basis-1/8 flex-1 ">
@@ -111,6 +114,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={qrindo}
+                alt='qrindo'
               />
             </div>
           </div>
