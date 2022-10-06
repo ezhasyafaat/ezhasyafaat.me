@@ -38,7 +38,7 @@ const Home = () => {
               />
               </li>
               <li>
-                <a className="bg-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 font-lexend" target="_blank" href="#">
+                <a className="bg-white text-gray-900 text-white px-4 py-2 border-none rounded-md ml-8 font-lexend" target="_blank" href="#">
                   Resume
                 </a>
               </li>
@@ -59,15 +59,18 @@ const Home = () => {
             and Back-end Engineering. Skilled in PHP, Laravel, Livewire, VanillaJs, NodeJs, Python, 
             MySQL, Ubuntu, Codeigniter, Team Management, and Project Management
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300">
               <a href="https://www.linkedin.com/in/zhaasyft/">
                 <AiFillLinkedin />
+                <p className='text-sm'>LinkedIn</p>
               </a>
               <a href="https://github.com/ezhasyafaat">
                 <AiFillGithub />
+                <p className='text-sm'>Github</p>
               </a>
               <a href="https://facebook.com/zhaasyft">
                 <AiFillFacebook />
+                <p className='text-sm'>Facebook</p>
               </a>
             </div>
           </div>
