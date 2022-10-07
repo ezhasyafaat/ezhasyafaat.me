@@ -38,7 +38,7 @@ const Home = () => {
               />
               </li>
               <li>
-                <a className="bg-white text to-grey-900 text-gray-900 px-4 py-2 border-none rounded-md ml-8 font-lexend" href="#">
+                <a className="bg-gray-900 dark:bg-white dark:text-gray-900 text-white px-4 py-2 border-none rounded-md ml-8 font-lexend" target="_blank" href="#">
                   Resume
                 </a>
               </li>
