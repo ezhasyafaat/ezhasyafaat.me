@@ -28,4 +28,4 @@ npm run dev
 [React Portofolio Tailwind](https://github.com/developedbyed/react-portofolio-with-tailwind) - [Simo Edwin](https://github.com/developedbyed)
 
 ## LICENSE
-```MIT```
+MIT

@@ -17,7 +17,7 @@ import qrindo from '../public/QRINDO.png'
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(true)
-
+  
   return (
     <div className={darkMode ? 'dark' : 'light'}>
       <Head>
