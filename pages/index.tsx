@@ -17,7 +17,8 @@ import qrindo from '../public/QRINDO.png'
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(true)
-  
+  const age = new Date().getFullYear() - 2002
+
   return (
     <div className={darkMode ? 'dark' : 'light'}>
       <Head>
@@ -54,8 +55,7 @@ const Home = () => {
               <Image src={ezhasyafaat} layout="fill" objectFit="cover" alt='profile-picture'/>
             </div>
             <p className="text-md py-5 leading-8 text-gray-900 dark:text-gray-200 max-w-2xl mx-auto md:text-xl text-left">
-            I'am a Web Developer. I'am also an open source enthusiast. I love to contribute and sharing knowledge through open source project. 
-            Im so happy if what I do can be useful for others in the future. Outside of programming, i also enjoy playing music, especially guitar.
+              I&apos;am a Web Developer. I&apos;am also an open source enthusiast. I love to contribute and sharing knowledge through open source project. Im so happy if what I do can be useful for others in the future. Outside of programming, i also enjoy playing music, especially guitar.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300">
               <a href="https://www.linkedin.com/in/zhaasyft/">
